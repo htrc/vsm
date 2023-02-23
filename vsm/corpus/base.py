@@ -700,7 +700,7 @@ class Corpus(BaseCorpus):
 
     @staticmethod
     def _serial_load(file, load_corpus=True):
-        arrays_in = np.load(file)#, encoding='bytes')
+        arrays_in = np.load(file, allow_pickle=True)#, encoding='bytes')
 
         c = Corpus([], remove_empty=False)
         if load_corpus:

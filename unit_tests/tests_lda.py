@@ -49,5 +49,5 @@ class TestLda(unittest.TestCase):
         
 
 if __name__ == '__main__':
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestLdaCgsMulti)
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestLda)
     unittest.TextTestRunner(verbosity=2).run(suite)
