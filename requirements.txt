@@ -2,7 +2,7 @@ chardet==3.0.4
 cython==0.27.3
 future==0.16.0
 matplotlib==2.0.2
-nltk==3.2.3
+nltk==3.6.6
 numpy>=1.19.5
 progressbar2==3.55.0
 py4j==0.10.6
